@@ -1,0 +1,15 @@
+friends = ['john', 'kim', 'karen']
+print(friends)
+print(friends[0])
+print(friends[1:])
+friends.append('creed')
+print(friends)
+friends.insert(1, 'kelly')
+print(friends)
+friends.remove('john')
+print(friends)
+lucky_num = [0,1,2,3,4]
+friends.extend(lucky_num)
+print(friends)
+lucky_num.reverse()
+print(lucky_num)
